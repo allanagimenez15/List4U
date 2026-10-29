@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="s-6KAxyEYDb52GfmOq-G">
-    <mxGraphModel>
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Sr3sci-nUxexn1yI90CD-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="140" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr3sci-nUxexn1yI90CD-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Consultar histórico de preços" vertex="1">
+          <mxGeometry height="50" width="110" x="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr3sci-nUxexn1yI90CD-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Cadastrar usuário" vertex="1">
+          <mxGeometry height="50" width="110" x="240" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr3sci-nUxexn1yI90CD-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Autenticar usuário" vertex="1">
+          <mxGeometry height="50" width="110" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr3sci-nUxexn1yI90CD-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Encerrar sessão" vertex="1">
+          <mxGeometry height="50" width="110" x="240" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="Sr3sci-nUxexn1yI90CD-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Criar lista" vertex="1">
+          <mxGeometry height="50" width="110" x="240" y="330" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
