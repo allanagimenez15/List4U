@@ -21,20 +21,53 @@ Desenvolver uma aplicação web com autenticação de usuários, gerenciamento d
 - Cálculo da média dos preços registrados.
 - Futuro compartilhamento familiar e comparação de preços entre supermercados.
 
-## Tecnologias previstas
+## Tecnologias utilizadas
 
-- HTML, CSS e JavaScript.
-- Firebase Authentication.
-- Cloud Firestore.
-- Git e GitHub.
+### Front-end
+- HTML5
+- CSS3
+- JavaScript
 
-## Documentação
+### Back-end
+- C#
+- ASP.NET Core Web API
 
-A documentação acadêmica completa será disponibilizada em PDF neste repositório após sua consolidação.
+### Banco de dados
+- MySQL
+
+### Ferramentas
+- Git e GitHub
+- Visual Studio / Visual Studio Code
+- MySQL Workbench
+
+## Etapas de desenvolvimento
+
+1. **Modelagem do banco de dados**
+   - Definir as tabelas e seus respectivos atributos.
+   - Estabelecer chaves primárias e estrangeiras.
+   - Definir os relacionamentos entre as entidades.
+
+2. **Desenvolvimento do back-end**
+   - Implementar a API REST utilizando C# e ASP.NET Core Web API.
+   - Desenvolver as regras de negócio do sistema.
+   - Implementar os endpoints para comunicação com o front-end.
+
+3. **Integração com o banco de dados**
+   - Configurar a conexão com o MySQL.
+   - Implementar operações de cadastro, consulta, edição e exclusão de dados.
+
+4. **Integração entre front-end e back-end**
+   - Conectar as interfaces às rotas da API.
+   - Implementar a comunicação entre as camadas do sistema.
+
+5. **Testes e validação**
+   - Testar as funcionalidades implementadas.
+   - Validar as operações e o comportamento do sistema.
 
 ## Estado do projeto
 
-Projeto em fase inicial de análise, especificação e modelagem, com implementação a ser desenvolvida progressivamente.
+Projeto em fase inicial de desenvolvimento, com requisitos, documentação e modelagem definidos. Atualmente, encontra-se em preparação para a implementação do banco de dados MySQL, desenvolvimento do back-end em C# com ASP.NET Core Web API e integração com o front-end.
+
 
 ## Disciplina
 
