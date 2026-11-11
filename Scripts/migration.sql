@@ -1,0 +1,42 @@
+
+CREATE DATABASE list4u
+CHARACTER SET utf8mb4
+COLLATE utf8mb4_unicode_ci;
+
+USE list4u;
+
+-- USERS
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB;
+
+-- LISTS
+CREATE TABLE lists (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    user_id INT NOT NULL,
+
+    CONSTRAINT fk_lists_users
+        FOREIGN KEY (user_id)
+        REFERENCES users(id)
+        ON DELETE CASCADE
+) ENGINE=InnoDB;
+
+-- ITEMS
+CREATE TABLE items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(150) NOT NULL,
+    price DECIMAL(10,2) NOT NULL DEFAULT 0.00,
+    is_completed BOOLEAN NOT NULL DEFAULT FALSE,
+    list_id INT NOT NULL,
+
+    CONSTRAINT fk_items_lists
+        FOREIGN KEY (list_id)
+        REFERENCES lists(id)
+        ON DELETE CASCADE
+) ENGINE=InnoDB;
