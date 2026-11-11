@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\List4U\\Back-end\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\dtos\\updateitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\dtos\\updateitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\dtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\dtos\\createitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\dtos\\createitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\controllers\\listscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\controllers\\listscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\dtos\\createlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\dtos\\createlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\list4u.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\list4u.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\models\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\models\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|c:\\projects\\list4u\\back-end\\list4u.api\\list4u.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F890204A-B2CE-32E7-9F2A-03220E81EC16}|List4U.API\\List4U.API.csproj|solutionrelative:list4u.api\\list4u.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateItemDto.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\UpdateItemDto.cs",
+              "RelativeDocumentMoniker": "List4U.API\\DTOs\\UpdateItemDto.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\UpdateItemDto.cs",
+              "RelativeToolTip": "List4U.API\\DTOs\\UpdateItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:55:35.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginUserDto.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\LoginUserDto.cs",
+              "RelativeDocumentMoniker": "List4U.API\\DTOs\\LoginUserDto.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\LoginUserDto.cs",
+              "RelativeToolTip": "List4U.API\\DTOs\\LoginUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:36:13.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "List4U.API\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwHwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:57:15.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateItemDto.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\CreateItemDto.cs",
+              "RelativeDocumentMoniker": "List4U.API\\DTOs\\CreateItemDto.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\CreateItemDto.cs",
+              "RelativeToolTip": "List4U.API\\DTOs\\CreateItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:56:16.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListsController.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Controllers\\ListsController.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Controllers\\ListsController.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Controllers\\ListsController.cs",
+              "RelativeToolTip": "List4U.API\\Controllers\\ListsController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:53:54.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateListDto.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\CreateListDto.cs",
+              "RelativeDocumentMoniker": "List4U.API\\DTOs\\CreateListDto.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\CreateListDto.cs",
+              "RelativeToolTip": "List4U.API\\DTOs\\CreateListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:53:23.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "List4U.API\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "List4U.API\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:49:46.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "List4U.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwF0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:18:34.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Program.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Program.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Program.cs",
+              "RelativeToolTip": "List4U.API\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:08:59.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "List4U.API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:08:01.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Models\\Item.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Models\\Item.cs",
+              "RelativeToolTip": "List4U.API\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:05:01.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Models\\List.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Models\\List.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Models\\List.cs",
+              "RelativeToolTip": "List4U.API\\Models\\List.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:04:51.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Models\\User.cs",
+              "RelativeDocumentMoniker": "List4U.API\\Models\\User.cs",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\Models\\User.cs",
+              "RelativeToolTip": "List4U.API\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T15:04:32.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "List4U.API.csproj",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\List4U.API.csproj",
+              "RelativeDocumentMoniker": "List4U.API\\List4U.API.csproj",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\List4U.API.csproj",
+              "RelativeToolTip": "List4U.API\\List4U.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-02T15:01:26.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "List4U.API",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\List4U.API.csproj",
+              "RelativeDocumentMoniker": "List4U.API\\List4U.API.csproj",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\List4U.API.csproj",
+              "RelativeToolTip": "List4U.API\\List4U.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-02T15:01:07.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\List4U\\Back-end\\List4U.API\\appsettings.json",
+              "RelativeDocumentMoniker": "List4U.API\\appsettings.json",
+              "ToolTip": "C:\\Projects\\List4U\\Back-end\\List4U.API\\appsettings.json",
+              "RelativeToolTip": "List4U.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-02T15:00:02.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
