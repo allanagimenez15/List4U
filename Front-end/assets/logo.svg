@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 104" role="img" aria-label="List4U">
+  <g fill="none" stroke="#08752f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 17h30l12 57h151"/>
+    <path d="M47 22h14"/>
+    <circle cx="82" cy="88" r="9"/><circle cx="163" cy="88" r="9"/>
+    <path d="M55 74h153"/>
+  </g>
+  <path d="M117 12c-5-8-13-10-20-8 4 9 11 13 20 12m4-1c5-8 13-10 20-8-4 9-11 13-20 12" fill="#08752f"/>
+  <text x="74" y="59" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="900" letter-spacing="-2" fill="#f36b08">LIST4U</text>
+  <text x="118" y="77" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="2" fill="#f5a51b">APP</text>
+</svg>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minhas listas | List4U</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="app-page">
+  <div class="app-layout">
+    <aside class="sidebar">
+      <a class="brand sidebar-brand" href="lists.html"><img src="assets/logo.svg" alt="List4U"></a>
+      <nav class="side-nav" aria-label="Navegação principal">
+        <a class="nav-link active" href="lists.html"><span class="nav-icon">▤</span> Minhas Listas</a>
+        <button class="nav-link" id="sidebar-new-list" type="button"><span class="nav-icon">＋</span> Nova Lista</button>
+      </nav>
+      <button class="nav-link logout-link" id="logout-button" type="button"><span class="nav-icon">↪</span> Sair</button>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">BEM-VINDA(O) AO LIST4U</p>
+          <h1>Minhas Listas</h1>
+          <p class="muted">Visualize, edite e organize suas listas de compras.</p>
+        </div>
+        <button class="button button-primary" id="new-list-button" type="button"><span>＋</span> Nova Lista</button>
+      </header>
+
+      <section class="list-toolbar">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="list-search" type="search" placeholder="Buscar uma lista...">
+        </label>
+        <span class="muted small" id="list-count">0 listas</span>
+      </section>
+
+      <section id="lists-container" class="lists-grid" aria-live="polite"></section>
+      <div id="empty-state" class="empty-state is-hidden">
+        <div class="empty-illustration">🛒</div>
+        <h2>Você ainda não tem listas</h2>
+        <p>Crie sua primeira lista e comece a organizar suas compras.</p>
+        <button class="button button-primary" id="empty-new-list" type="button">＋ Criar primeira lista</button>
+      </div>
+    </main>
+  </div>
+
+  <dialog class="modal" id="new-list-dialog">
+    <form id="new-list-form" method="dialog" class="modal-card">
+      <button class="icon-button modal-close" type="button" data-close="new-list-dialog" aria-label="Fechar">×</button>
+      <div class="modal-symbol">＋</div>
+      <h2>Criar nova lista</h2>
+      <p class="muted">Dê um nome para sua lista de compras.</p>
+      <label class="field">
+        <span>Nome da lista</span>
+        <input name="name" type="text" placeholder="Ex.: Compras da semana" maxlength="80" required>
+      </label>
+      <p class="form-error" id="new-list-error" role="alert"></p>
+      <div class="modal-actions">
+        <button class="button button-ghost" type="button" data-close="new-list-dialog">Cancelar</button>
+        <button class="button button-primary" type="submit">Criar lista</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog class="modal modal-confirm" id="confirm-dialog">
+    <form method="dialog" class="modal-card">
+      <div class="modal-symbol danger-symbol">!</div>
+      <h2>Excluir lista?</h2>
+      <p class="muted" id="confirm-message">Essa ação não poderá ser desfeita.</p>
+      <div class="modal-actions">
+        <button class="button button-ghost" value="cancel">Cancelar</button>
+        <button class="button button-danger" id="confirm-delete" value="confirm">Excluir</button>
+      </div>
+    </form>
+  </dialog>
+  <script type="module" src="js/lists-page.js"></script>
+</body>
+</html>

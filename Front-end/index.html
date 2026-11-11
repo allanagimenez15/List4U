@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="List4U — organize suas compras em um só lugar.">
+  <title>List4U | Entrar</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="auth-page">
+  <main class="auth-shell">
+    <section class="auth-photo" aria-label="Produtos frescos de supermercado">
+      <div class="photo-shape"></div>
+      <div class="photo-copy">
+        <span class="eyebrow">Organize. Compartilhe. Compre.</span>
+        <h1>Sua lista, do seu jeito.</h1>
+        <p>Tenha tudo o que precisa para suas compras em um só lugar.</p>
+      </div>
+    </section>
+
+    <section class="auth-panel">
+      <a class="brand brand-centered" href="index.html" aria-label="List4U início">
+        <img src="assets/logo.svg" alt="" class="brand-logo">
+      </a>
+      <div class="auth-heading">
+        <h2 id="auth-title">Entrar na sua conta</h2>
+        <p id="auth-subtitle">Acesse suas listas e organize suas compras.</p>
+      </div>
+
+      <form id="login-form" class="form-stack">
+        <label class="field">
+          <span>E-mail</span>
+          <input type="email" name="email" autocomplete="email" placeholder="seuemail@exemplo.com" required>
+        </label>
+        <label class="field">
+          <span>Senha</span>
+          <input type="password" name="password" autocomplete="current-password" placeholder="Sua senha" required minlength="6">
+        </label>
+        <p class="form-error" id="login-error" role="alert"></p>
+        <button class="button button-primary button-full" type="submit">Entrar</button>
+      </form>
+
+      <form id="register-form" class="form-stack is-hidden">
+        <label class="field">
+          <span>Nome</span>
+          <input type="text" name="name" autocomplete="name" placeholder="Como podemos te chamar?" required maxlength="100">
+        </label>
+        <label class="field">
+          <span>E-mail</span>
+          <input type="email" name="email" autocomplete="email" placeholder="seuemail@exemplo.com" required>
+        </label>
+        <label class="field">
+          <span>Senha</span>
+          <input type="password" name="password" autocomplete="new-password" placeholder="Crie uma senha" required minlength="8">
+        </label>
+        <p class="form-error" id="register-error" role="alert"></p>
+        <button class="button button-primary button-full" type="submit">Criar minha conta</button>
+      </form>
+
+      <button class="text-button forgot-button" id="forgot-button" type="button">Esqueceu sua senha?</button>
+      <div class="auth-divider"><span>ou</span></div>
+      <button class="button button-outline button-full" id="toggle-auth" type="button">
+        <span aria-hidden="true">＋</span> Cadastrar nova conta
+      </button>
+      <p class="demo-note" id="demo-note">Modo de demonstração: os dados ficam apenas neste navegador.</p>
+    </section>
+  </main>
+  <script type="module" src="js/auth-page.js"></script>
+</body>
+</html>

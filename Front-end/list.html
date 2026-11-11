@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lista | List4U</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="app-page">
+  <div class="app-layout">
+    <aside class="sidebar">
+      <a class="brand sidebar-brand" href="lists.html"><img src="assets/logo.svg" alt="List4U"></a>
+      <nav class="side-nav" aria-label="Navegação principal">
+        <a class="nav-link active" href="lists.html"><span class="nav-icon">▤</span> Minhas Listas</a>
+        <a class="nav-link" href="lists.html#nova"><span class="nav-icon">＋</span> Nova Lista</a>
+      </nav>
+      <button class="nav-link logout-link" id="logout-button" type="button"><span class="nav-icon">↪</span> Sair</button>
+    </aside>
+
+    <main class="main-content detail-content">
+      <header class="detail-header">
+        <a class="back-link" href="lists.html" aria-label="Voltar para minhas listas">←</a>
+        <div class="detail-title">
+          <h1 id="list-title">Carregando lista...</h1>
+          <p class="muted"><span class="people-icon">♧</span> <span id="participant-count">Somente você</span></p>
+        </div>
+        <div class="header-actions">
+          <button class="button button-outline button-share" id="open-share" type="button">♧ <span>Compartilhar</span></button>
+          <button class="icon-button" id="list-menu-button" type="button" aria-label="Opções da lista">⋮</button>
+        </div>
+      </header>
+
+      <section class="add-item-panel">
+        <form id="add-item-form" class="add-item-form">
+          <label class="field compact-field">
+            <span class="sr-only">Nome do produto</span>
+            <input name="name" type="text" placeholder="Ex.: Arroz, Leite, Pão..." maxlength="120" required>
+          </label>
+          <label class="field compact-field quantity-field">
+            <span class="sr-only">Quantidade</span>
+            <input name="quantity" type="number" min="0.01" step="0.01" value="1" required aria-label="Quantidade">
+          </label>
+          <label class="field compact-field price-field">
+            <span class="sr-only">Preço</span>
+            <input name="price" type="number" min="0" step="0.01" placeholder="Preço R$" aria-label="Preço em reais">
+          </label>
+          <button class="button button-primary add-button" type="submit">＋ Adicionar</button>
+        </form>
+        <p class="form-error" id="item-error" role="alert"></p>
+      </section>
+
+      <section class="items-section">
+        <div class="section-heading">
+          <h2>Itens da lista</h2>
+          <span class="muted small" id="items-summary">0 itens</span>
+        </div>
+        <div id="items-container" class="items-list" aria-live="polite"></div>
+        <div id="items-empty" class="empty-inline is-hidden">
+          <span>🧺</span>
+          <p>Adicione o primeiro produto à sua lista.</p>
+        </div>
+      </section>
+
+      <footer class="list-summary">
+        <div class="summary-counts"><strong id="total-items">0 itens</strong><span class="summary-separator"></span><span id="purchased-items">0 comprados</span></div>
+        <div class="summary-total">Total estimado: <strong id="estimated-total">R$ 0,00</strong></div>
+      </footer>
+    </main>
+  </div>
+
+  <dialog class="modal share-modal" id="share-dialog">
+    <form id="share-form" method="dialog" class="modal-card share-card">
+      <button class="icon-button modal-close" type="button" data-close="share-dialog" aria-label="Fechar">×</button>
+      <div class="share-heading">
+        <div class="share-symbol">♧</div>
+        <div><h2>Compartilhar lista</h2><p class="muted">Convide outras pessoas para colaborar nesta lista.</p></div>
+      </div>
+      <div class="invite-row">
+        <label class="field">
+          <span class="sr-only">E-mail da pessoa</span>
+          <input type="email" name="email" placeholder="Digite o e-mail da pessoa" required>
+        </label>
+        <button class="button button-primary" type="submit">Convidar</button>
+      </div>
+      <p class="form-error" id="share-error" role="alert"></p>
+      <div class="participants-heading"><h3>Participantes</h3><span class="muted small" id="share-count">1 pessoa</span></div>
+      <ul id="participants-list" class="participants-list"></ul>
+      <p class="demo-note">O compartilhamento está demonstrativo nesta interface. A API e as permissões de colaboração precisam ser implementadas no backend.</p>
+    </form>
+  </dialog>
+
+  <dialog class="modal" id="edit-item-dialog">
+    <form id="edit-item-form" method="dialog" class="modal-card">
+      <button class="icon-button modal-close" type="button" data-close="edit-item-dialog" aria-label="Fechar">×</button>
+      <h2>Editar item</h2>
+      <input type="hidden" name="id">
+      <label class="field"><span>Produto</span><input name="name" type="text" required maxlength="120"></label>
+      <div class="form-row">
+        <label class="field"><span>Quantidade</span><input name="quantity" type="number" min="0.01" step="0.01" required></label>
+        <label class="field"><span>Preço (R$)</span><input name="price" type="number" min="0" step="0.01"></label>
+      </div>
+      <div class="modal-actions">
+        <button class="button button-ghost" type="button" data-close="edit-item-dialog">Cancelar</button>
+        <button class="button button-primary" type="submit">Salvar alterações</button>
+      </div>
+    </form>
+  </dialog>
+  <script type="module" src="js/list-page.js"></script>
+</body>
+</html>
