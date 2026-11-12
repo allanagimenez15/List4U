@@ -16,6 +16,8 @@ public class AppDbContext : DbContext
 
     public DbSet<Item> Items { get; set; }
 
+    public DbSet<SharedList> SharedLists { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -105,6 +107,35 @@ public class AppDbContext : DbContext
 
             entity.Property(e => e.ListId)
                 .HasColumnName("list_id");
+        });
+
+
+        modelBuilder.Entity<SharedList>(entity =>
+        {
+            entity.ToTable("shared_lists");
+
+            entity.HasKey(sharedList => sharedList.Id);
+
+            entity.Property(sharedList => sharedList.Id)
+                .HasColumnName("id");
+
+            entity.Property(sharedList => sharedList.ListId)
+                .HasColumnName("list_id");
+
+            entity.Property(sharedList => sharedList.UserId)
+                .HasColumnName("user_id");
+
+            entity.Property(sharedList => sharedList.CreatedAt)
+                .HasColumnName("created_at")
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+            entity.HasOne(sharedList => sharedList.List)
+                .WithMany()
+                .HasForeignKey(sharedList => sharedList.ListId);
+
+            entity.HasOne(sharedList => sharedList.User)
+                .WithMany()
+                .HasForeignKey(sharedList => sharedList.UserId);
         });
     }
 }

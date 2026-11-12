@@ -126,6 +126,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "List4U.API.Controllers.ListsController",
+    "Method": "ShareList",
+    "RelativePath": "api/Lists/{listId}/share",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "listId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ownerUserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "shareListDto",
+        "Type": "List4U.API.DTOs.ShareListDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "List4U.API.Controllers.UsersController",
     "Method": "GetUsers",
     "RelativePath": "api/Users",
